@@ -8,7 +8,7 @@
     tools:context=".MainActivity">
 
     <fragment
-        android:id="@+id/fragment"
+        android:id="@+id/list_fragment"
         android:name="com.hfad.workout.WorkListFragment"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -25,6 +25,6 @@
         android:text="@string/show_detail_btn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/fragment" />
+        app:layout_constraintTop_toBottomOf="@+id/list_fragment" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
