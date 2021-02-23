@@ -5,8 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="15dp"
-    tools:context=".TempActivity">
+    android:padding="15dp" >
 
     <TextView
         android:id="@+id/time_view"
@@ -23,7 +22,6 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="20dp"
-        android:onClick="onStartPressed"
         android:text="@string/start"
         />
 
@@ -33,7 +31,6 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="8dp"
-        android:onClick="onStopPressed"
         android:text="@string/stop"
         />
 
@@ -43,7 +40,6 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="8dp"
-        android:onClick="onResetPressed"
         android:text="@string/reset"
         />
 
